@@ -1,0 +1,27 @@
+body{
+    background-color: lightslategray;
+}
+
+h1 {
+    color:black;
+    font-family:sans-serif;
+    font-size:3em;
+    margin-bottom:2;
+}
+
+table {
+    font-family:sans-serif;}
+th, td {
+    padding:.15em .10em;
+    text-align:center;}
+&:nth-child(2) {
+     text-align:right;
+ }
+
+td {
+    background-color:pink;
+}
+th {
+    background-color:pink;
+    color:#fff;
+}
